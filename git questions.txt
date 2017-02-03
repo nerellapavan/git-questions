@@ -47,7 +47,8 @@ If your colleagues have done the changes and you want those in your local repo.U
 
 git pull origin master
 
-
+11)How to create a new feature  branch?
+git branch new_feature
 
 
 
