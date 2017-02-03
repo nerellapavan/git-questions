@@ -43,7 +43,6 @@ git clone https://github.com/hegdedarsh/git-questions.git
 
 
 10)How to get all the changes done by others from the github repo?
-
 If your colleagues have done the changes and you want those in your local repo.Use the below command
 
 git pull origin master
