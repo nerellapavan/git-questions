@@ -1,0 +1,54 @@
+1)How would you install git?
+sudo apt-get install git
+
+2)How to setup configurations in git?
+git config --global user.name "My Name"
+git config --global user.email myemail@example.com
+
+
+3)How to create a new repo?
+git init 
+or 
+git init name of the project
+
+4)How to check the status in GIT?
+git status
+
+5)How to move the files to staging area?
+git add filename
+git status
+
+If you want to move the whole folder then
+git add -A
+
+
+6)How to commit the files in GIT ?
+git commit -m "Initial Commit"
+
+
+7)How to connect to remote repo ?
+
+Create a project in github.
+Then use the below command to git command line
+
+git remote add origin https://github.com/hegdedarsh/git-questions.git
+
+
+8)How to move it to GitHub?
+git push origin master
+
+
+9)How to clone a repo?
+git clone https://github.com/hegdedarsh/git-questions.git
+
+
+10)How to get all the changes done by others from the github repo?
+
+If your colleagues have done the changes and you want those in your local repo.Use the below command
+
+git pull origin master
+
+
+
+
+
