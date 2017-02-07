@@ -71,3 +71,10 @@ Use the commit id and the below command to see what was added in this commit
 
 git show b42907892347dbsj234
 
+
+16)How do you undo the last commit?
+
+git revert 2dgfhyr6589zm(commit id)
+
+
+
