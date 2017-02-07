@@ -82,6 +82,18 @@ git revert 2dgfhyr6589zm(commit id)
 git commit --amend -m "This is a new git commit message"
 
 
+18)How to resolve merge conflicts in git?
 
+Try 
+git mergetool
+
+The command doesnt neccessarily open the GUI unless you install one.
+I have installed p4merge.
+
+Else when you open the file , you will see conflict markers.
+
+<<<<HEAD
+
+>>>>>>>>BRANCH-NAME
 
 
