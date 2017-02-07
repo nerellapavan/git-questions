@@ -77,4 +77,11 @@ git show b42907892347dbsj234
 git revert 2dgfhyr6589zm(commit id)
 
 
+17)How to edit an incorrect commit message in git?
+
+git commit --amend -m "This is a new git commit message"
+
+
+
+
 
