@@ -96,4 +96,36 @@ Else when you open the file , you will see conflict markers.
 
 >>>>>>>>BRANCH-NAME
 
+19)How to abort a merge conflict?
+
+git merge --abort
+
+20)How to compare a file in git?
+
+Use
+git diff HEAD sample.txt
+
+If you have configured difftool, use it
+
+git difftool HEAD sample.txt
+
+21)If you are working a part of the project and you need to work on a bugfix for the other part of the project which you had delivered couple of days.At that time you need to save these changes without commiting it.What command will you use?
+
+
+git stash
+
+22)What command do you use to check the list of stash?
+
+git stash list
+
+23)What command do you use to remove the stash?
+
+git stash drop@{0}
+
+24)What command will you use to apply the stash changes?
+
+git stash apply
+
+
+
 
